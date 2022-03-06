@@ -22,7 +22,7 @@ new_data.sort()
 if l %2 ==0:
     m1 = float(new_data[l//2])
     m2 = float(new_data[l//2-1])
-    m3 = (m1+m2)/2
+    m = (m1+m2)/2
 
 else:
     m=  new_data(l//2)    
